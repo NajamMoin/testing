@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 class="h1">Welcome to JQuery</h1>
+
+    <h2 class="h2">WElcome to jquery</h2>
+
+    <div class="main">
+        <h1>Hello</h1>
+    </div>
+    <div id="main">
+        <h2>Hello</h2>
+    </div>
+</body>
+</html>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+
+        $(".h1").click(function(){
+            $(this).css("background-color","blue") // .hide()
+        })
+
+        $(".h2").click(function(){
+            $(this).css("color","blue") 
+        }) 
+        $(".main").click(function(){
+            $(this).css("border","2px solid green") // .hide()
+        })
+
+        $("#main").click(function(){
+            $(this).css("border","2px solid black") // .hide()
+        })
+    })
+</script>

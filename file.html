@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .box {
+            background-color: blue;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        } */
+        .para{
+            background-color: aqua;
+            border: 2px solid black;
+        }
+
+        .para1{
+            background-color: brown;
+            color: white;
+            font-size: 40px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <!-- <button class="start">Start Animation</button>
+    <button class="reset">Reset</button>
+    <div class="box">
+        <h1>HTML</h1>
+    </div> -->
+    <p >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quidem, eos dolorem, similique id autem iusto culpa ullam, placeat officiis consequatur. Tenetur et beatae praesentium deleniti incidunt laudantium eos tempore?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam amet ducimus sunt non molestiae dolores rem, voluptatum deleniti quis? Vitae ea reprehenderit voluptatum porro ullam sint illum doloribus vero temporibus!
+        Sit ipsum libero impedit sunt expedita veritatis iste et dolorum mollitia odio, illo modi distinctio cupiditate pariatur aliquid beatae recusandae illum voluptate soluta. Blanditiis atque debitis molestias, laboriosam recusandae non.
+        Labore assumenda accusantium odio sunt esse? Quis, cupiditate aut! Maiores, laborum iusto assumenda minima ratione corporis ipsa voluptates nihil accusantium, atque odit quidem. Optio reiciendis aliquid voluptatibus, perspiciatis sed debitis.
+        Nemo inventore, temporibus quasi ducimus non consequuntur, eum quo dolores, repellendus incidunt nostrum architecto repellat unde neque veritatis? Saepe dolore, fugit ad totam quis nostrum nihil veniam quia modi ex.
+        Eligendi illo impedit esse consequuntur. Cumque sed suscipit doloremque! Reprehenderit, minus, officia libero ut ab molestiae, illo officiis eligendi neque placeat porro pariatur hic vel dicta quaerat quam accusantium corporis.
+    </p>
+
+    <button>Toggle Class</button>
+    <script src="jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // $(".start").click(function () {
+            //     $(".box").animate({ left: '150px' ,opacity: '0.5', height: '250px', width: '350px' }, "slow")
+            //     $(".box").animate({ fontSize:'30px' }, "slow")
+            //     $(".box").css("background-color","yellow")
+            //     $(".box").css("color","orange")
+            // })
+            // $(".reset").click(function(){
+            //     $(".box").animate({left:'0px', opacity:'1', height:'100px', width:'100px', fontSize:'12px'})
+            //    $(".box").css("background-color", "blue")
+            //    $(".box").css("position", "absolute")
+            // })
+
+            $("button").click(function(){
+                $("p").toggleClass("para1")
+            })
+
+        })
+    </script>
+</body>
+
+</html>

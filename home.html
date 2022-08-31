@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .para1{
+        background-color: aqua;
+        border: 2px solid black;
+    }
+</style>
+</head>
+<body>
+    <!-- <p class="para">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti obcaecati similique cupiditate! Magni earum repellat soluta repellendus magnam? Placeat, voluptate cumque provident error molestias suscipit accusantium repudiandae vero natus dicta!
+    </p>
+    <button class="btn">ON</button>
+    <button class="btn1">OFF</button> -->
+
+    <p id="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam labore harum facere cumque voluptatibus, earum illum blanditiis neque ab quas saepe veritatis dolores voluptatem ipsum porro eum dicta repudiandae sed?
+    </p>
+
+    <button id="btn">ON/OFF</button>
+    <button class="slideUp">Slide UP</button>
+    <button class="slideDown">Slide DOWN</button>
+
+    <p class="para1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor molestias distinctio cumque repellat vitae mollitia ad aliquid suscipit quibusdam id, minima quia, ab at. Exercitationem ullam eveniet repellendus distinctio ipsa?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magni ad sed. Nihil molestias sed commodi placeat nesciunt aperiam. Autem velit perspiciatis, accusamus reiciendis facilis neque adipisci eos commodi aut!
+        Repellendus, obcaecati omnis? Adipisci atque nesciunt repellat. Officiis est dolorum, laboriosam soluta qui ullam omnis, corporis ad doloremque vitae libero nobis iste laudantium! Nesciunt fuga rerum ea, eligendi consectetur voluptates.
+        Ipsam, sed voluptates consectetur fugiat tenetur est expedita voluptate consequatur sint, tempora, ipsa maiores odit optio itaque. Odit fugiat architecto impedit quidem nisi molestiae eum facere, atque possimus commodi pariatur!
+        Eaque omnis rerum quibusdam explicabo similique at, doloremque, expedita vitae voluptas id consequatur dolor tempore? Officia obcaecati ut cum dolores eaque itaque explicabo? Enim beatae eveniet unde optio hic quas.
+        Rem a dolore, veritatis tenetur rerum nulla sequi laborum optio, iste minima alias molestias corrupti saepe fugiat, delectus ea. Ipsa quidem aut reiciendis quisquam eligendi, soluta voluptatibus amet alias dolore.
+        Nobis debitis eius ipsa nostrum aliquid aliquam ad, sint itaque iste excepturi quo tempore, temporibus iure libero. Sit inventore est qui quidem, labore ex, iure vel nihil nemo voluptatem reprehenderit.
+        Ipsam aspernatur, vitae iusto modi dolores pariatur inventore unde expedita nostrum ab ad natus vero, ut odit quo esse fuga! Blanditiis fugit reprehenderit commodi id nesciunt debitis quidem nisi pariatur.
+        Vero rem blanditiis vel fugiat necessitatibus culpa voluptas, vitae molestias temporibus ad quibusdam at quidem suscipit deserunt quasi, minus et eius, nam ex accusamus ea obcaecati. Temporibus iusto placeat consequatur.
+        Saepe provident odio eius totam atque explicabo esse ex minima enim iusto harum quaerat accusamus laborum voluptas vitae, officia tempora ea? Laboriosam accusantium quidem libero ipsum voluptatem perspiciatis exercitationem molestiae!
+        Molestias, beatae voluptatibus! Aspernatur ab mollitia sunt quo. Aliquam, doloremque tenetur. Dolorum iure corrupti beatae, totam, animi fuga nobis eum ullam ut veritatis ipsum. Eius corporis odit saepe maxime voluptatum.
+    </p>
+
+
+    <script src="jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".btn1").click(function(){
+                $(".para").hide()
+            })
+            $(".btn").click(function(){
+                $(".para").show()
+            })
+            $("#btn").click(function(){
+                $("#para").toggle()
+            })
+
+            $(".slideUp").click(function(){
+                $(".para1").slideUp()
+            })
+            $(".slideDown").click(function(){
+                $(".para1").slideDown()
+            })
+
+        })
+    </script>
+</body>
+</html>

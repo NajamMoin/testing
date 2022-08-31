@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    #On{
+        display: none;
+    }
+   .body{
+    background-color: black;
+    color: white;
+   }
+   
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="body">
+    
+    <button id="select">
+        <!-- <span id="Off">Off</span> <span id="On">On</span> -->
+        <i class="fa-solid fa-moon" id="Off"></i>
+        <i class="fa-solid fa-sun" id="On"></i>
+    </button>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorem debitis optio magni cupiditate voluptates in ea vel, praesentium doloremque amet quam? Fugiat facere laboriosam voluptas accusantium impedit id provident.
+    </p>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready( function(){
+            $("#select").click( function(){ 
+                $("body").toggleClass()
+                $("#On").toggle() 
+                $("#Off").toggle()    
+            })
+
+           
+        })
+    </script>
+</body>
+</html>
